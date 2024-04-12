@@ -23,7 +23,7 @@ alphab = ['1', '2', '3', '4', '5', '6']
 frequencies = [23, 44, 12, 11, 2, 10]
 
 pos = np.arange(len(alphab))
-print pos
+print(pos)
 width = 1.0     # gives histogram aspect to the bar diagram
 
 ax = plt.axes()

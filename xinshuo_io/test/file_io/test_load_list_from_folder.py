@@ -6,7 +6,7 @@ import init_paths
 from file_io import load_list_from_folder
 
 def test_load_list_from_folder():
-	print('basic')
+    print('basic')
     path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../test')
     datalist, num_elem = load_list_from_folder(folder_path=path, ext_filter='txt')   
     assert datalist[0] == os.path.abspath('test.txt')
@@ -17,7 +17,7 @@ def test_load_list_from_folder():
     # assert num_elem == 8
 
 
-	print('\n\nDONE! SUCCESSFUL!!\n')
+    print('\n\nDONE! SUCCESSFUL!!\n')
 	
 if __name__ == '__main__':
-	test_load_list_from_folder()
+    test_load_list_from_folder()
