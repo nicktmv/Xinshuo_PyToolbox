@@ -3,7 +3,6 @@ Setup file for the Xinshuo's Python Toolbox package.
 """
 
 from setuptools import find_packages, setup
-
 setup(
     name="xinshuo-py-toolbox",
     version="1.0.0",
@@ -15,7 +14,6 @@ setup(
     url="https://github.com/xinshuoweng/Xinshuo_PyToolbox",
     packages=find_packages(),
     install_requires=[
-        'check==0.1',
         'conversions==0.0.2',
         'glob2==0.7',
         'google-api-python-client==2.125.0',
@@ -28,11 +26,11 @@ setup(
         'opencv-python-headless==4.9.0.80',
         'Pillow==10.3.0',
         'pytest==7.4.4',
+        'scikit-image==0.23.1',
         'scikit-video==1.1.11',
         'scipy==1.13.0',
         'setuptools==65.5.0',
-        'terminaltables==3.1.10',
-        'torch==2.0.1+cu117',
+        'terminaltables==3.1.10'
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
